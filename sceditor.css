@@ -1,0 +1,69 @@
+div.sceditor-dropdown{ background: #fff; border: 1px solid #bbb; color: #222; font-size: 13px; margin: 22px 0 0 1px; position: absolute; z-index: 6; }
+div.sceditor-dropdown .button{ margin: .5em 0 0; }
+div.sceditor-dropdown form{ margin: 0; }
+div.sceditor-dropdown label{ display: block; font-size: .95em; font-weight: bold; margin: .65em 0 .15em; }
+div.sceditor-grip{ background: #000; background: url('scripts/sceditor/jquery.sceditor.min.png') no-repeat -289px 0; bottom: 0; cursor: pointer; height: 10px; overflow: hidden; position: absolute; right: 0; width: 10px; z-index: 3; }
+div.sceditor-group{ *display: inline; *margin: 2px 5px 2px 0; background: #ddd; border-radius: 4px; display: inline-block; -khtml-border-radius: 4px; margin: 1px 5px 1px 0; -moz-border-radius: 4px; -opera-border-radius: 4px; overflow: hidden; padding: 2px; -webkit-border-radius: 4px; zoom: 1; }
+div.sceditor-inserttable,div.sceditor-insertimage,div.sceditor-pastetext,div.sceditor-insertlink,div.sceditor-insertemail{ padding: 5px; }
+div.sceditor-resize-cover{ background: #000; filter: alpha(opacity=30); height: 6000px; left: 0; opacity: .3; position: absolute; top: 0; width: 3000px; z-index: 2; }
+div.sceditor-toolbar{ *padding: 3px 5px 3px 5px; background: #f7f7f7; border-bottom: 1px solid #aaa; overflow: hidden; padding: 3px 5px 0 5px; -webkit-border-radius: 4px 4px 0 0; zoom: 1; }
+.sceditor-button{ cursor: pointer; float: left; padding: 3px 4px; }
+.sceditor-button div{ margin: 0; padding: 0; text-indent: -9999px; }
+.sceditor-button div,.sceditor-button{ display: block; height: 16px; width: 16px; }
+.sceditor-button.disabled div{ filter: alpha(opacity=30); opacity: .3; }
+.sceditor-button.disabled:hover{ background: inherit; cursor: default; }
+.sceditor-button-bold div { background: url('scripts/sceditor/icons/text_bold.png'); }
+.sceditor-button-bulletlist div { background: url('scripts/sceditor/icons/text_list_bullets.png'); }
+.sceditor-button-center div { background: url('scripts/sceditor/icons/text_align_center.png'); }
+.sceditor-button-code div { background: url('scripts/sceditor/icons/script_code.png'); }
+.sceditor-button-color div { background: url('scripts/sceditor/icons/color_swatch.png'); }
+.sceditor-button-copy div { background: url('scripts/sceditor/icons/page_copy.png'); }
+.sceditor-button-cut div { background: url('scripts/sceditor/icons/cut.png'); }
+.sceditor-button-date div { background: url('scripts/sceditor/icons/date_add.png'); }
+.sceditor-button-email div { background: url('scripts/sceditor/icons/email_add.png'); }
+.sceditor-button-emoticon div { background: url('scripts/sceditor/icons/emoticon_smile.png'); }
+.sceditor-button-font div { background: url('scripts/sceditor/icons/font.png'); }
+.sceditor-button-headers div { background: url('scripts/sceditor/icons/text_headers.png'); }
+.sceditor-button-horizontalrule div { background: url('scripts/sceditor/icons/text_horizontalrule.png'); }
+.sceditor-button-image div { background: url('scripts/sceditor/icons/image_add.png'); }
+.sceditor-button-italic div { background: url('scripts/sceditor/icons/text_italic.png'); }
+.sceditor-button-justify div { background: url('scripts/sceditor/icons/text_align_justify.png'); }
+.sceditor-button-left div { background: url('scripts/sceditor/icons/text_align_left.png'); }
+.sceditor-button-link div { background: url('scripts/sceditor/icons/link_add.png'); }
+.sceditor-button-orderedlist div { background: url('scripts/sceditor/icons/text_list_numbers.png'); }
+.sceditor-button-paste div { background: url('scripts/sceditor/icons/page_white_paste.png'); }
+.sceditor-button-pastetext div { background: url('scripts/sceditor/icons/paste_plain.png'); }
+.sceditor-button-print div { background: url('scripts/sceditor/icons/printer.png'); }
+.sceditor-button-quote div { background: url('scripts/sceditor/icons/comment.png'); }
+.sceditor-button-redo div { background: url('scripts/sceditor/icons/arrow_redo.png'); }
+.sceditor-button-removeformat div { background: url('scripts/sceditor/icons/font_delete.png'); }
+.sceditor-button-right div { background: url('scripts/sceditor/icons/text_align_right.png'); }
+.sceditor-button-size div { background: url('scripts/sceditor/icons/font_size.png'); }
+.sceditor-button-source div { background: url('scripts/sceditor/icons/page_white_text.png'); }
+.sceditor-button-strike div { background: url('scripts/sceditor/icons/text_strikethrough.png'); }
+.sceditor-button-subscript div { background: url('scripts/sceditor/icons/text_subscript.png'); }
+.sceditor-button-superscript div { background: url('scripts/sceditor/icons/text_superscript.png'); }
+.sceditor-button-table div { background: url('scripts/sceditor/icons/table_add.png'); }
+.sceditor-button-time div { background: url('scripts/sceditor/icons/time_add.png'); }
+.sceditor-button-underline div { background: url('scripts/sceditor/icons/text_underline.png'); }
+.sceditor-button-undo div { background: url('scripts/sceditor/icons/arrow_undo.png'); }
+.sceditor-button-unlink div { background: url('scripts/sceditor/icons/link_break.png'); }
+.sceditor-button-youtube div { background: url('scripts/sceditor/icons/youtube.png'); }
+.sceditor-color-column{ float: left; }
+.sceditor-color-option{ border: 1px solid #fff; display: block; height: 10px; overflow: hidden; width: 10px; }
+.sceditor-color-option:hover{ border: 1px solid #333; }
+.sceditor-container{ background: #fff; border: 1px solid #aaa; border-radius: 4px; -khtml-border-radius: 4px; -moz-border-radius: 4px; -opera-border-radius: 4px; overflow: hidden; position: relative; -webkit-border-radius: 4px; }
+.sceditor-container iframe,.sceditor-container textarea{ border: 0; color: #111; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 13px; margin: 5px; outline: 0; padding: 0; resize: none; }
+.sceditor-container,.sceditor-container div,div.sceditor-dropdown,div.sceditor-dropdown div{ margin: 0; padding: 0; z-index: 3; }
+.sceditor-fontsize-option,.sceditor-font-option{ color: #222; cursor: pointer; display: block; font-size: 14px; padding: 4px 6px; text-decoration: none; }
+.sceditor-header-option { color: #222; cursor: pointer; display: block; font-size: 14px; text-decoration: none; }
+.sceditor-header-option h1 { background: none; border: 0; border-radius: 0; color: #000; font: bold xx-large sans-serif !important; margin: 0 !important; padding: 0 !important; text-shadow: none; }
+.sceditor-header-option h2 { background: none; border: 0; border-radius: 0; color: #000; font: bold x-large sans-serif !important; margin: 0 !important; padding: 0 !important; text-shadow: none; }
+.sceditor-header-option h3 { ; border-radius: 0; background: none; border: 0; color: #000; font: bold large sans-serif !important; margin: 0 !important; padding: 0 !important; text-shadow: none; }
+.sceditor-header-option h4 { background: none; border: 0; border-radius: 0; color: #000; font: bold medium sans-serif !important; margin: 0 !important; padding: 0 !important; text-shadow: none; }
+.sceditor-header-option h5 { background: none; border: 0; border-radius: 0; color: #000; font: bold small sans-serif !important; margin: 0 !important; padding: 0 !important; text-shadow: none; }
+.sceditor-header-option h6 { background: none; border: 0; border-radius: 0; color: #000; font: bold x-small sans-serif !important; margin: 0 !important; padding: 0 !important; text-shadow: none; }
+.sceditor-insertemoticon img{ cursor: pointer; margin: 2px; }
+.sceditor-more{ border-top: 1px solid #bbb; cursor: pointer; display: block; padding: 2px 0; text-align: center; }
+.sceditor-more:hover, .sceditor-fontsize-option:hover,.sceditor-font-option:hover, .sceditor-button:hover, .sceditor-header-option:hover { background: #eee; }
+.sceditor-pastetext textarea{ border: 1px solid #bbb; width: 20em; }
