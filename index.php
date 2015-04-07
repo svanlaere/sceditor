@@ -9,7 +9,7 @@ Plugin::setInfos(array(
     'description'           => __('SCEditor Wysiwyg filter'),
     'version'               => '1.2.9',
     'license'               => 'GPLv3',
-    'author'                => 'Fortron',
+    'author'                => 'Samuël van Laere',
     'require_wolf_version'  => '0.7.5',
 	'type'                  => 'both'
 ));
