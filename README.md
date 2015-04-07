@@ -1,8 +1,5 @@
 # SCEditor
-SCEditor filter plugin for Wolf CMS
-
-
-[SCEditor] is created by Sam Clarke
+[SCEditor] filter plugin for Wolf CMS
 
 ### Note
 remove *-master* from the directoryname
