@@ -9,7 +9,9 @@ Plugin::setInfos(array(
     'description'           => __('SCEditor Wysiwyg filter'),
     'version'               => '1.2.9',
     'license'               => 'GPLv3',
-    'author'                => 'Samuël van Laere',
+    'author'                => 'svanlaere',
+    'website'               => 'http://svanlaere.nl/',
+    'update_url'            => 'http://svanlaere.nl/plugin-versions.xml',
     'require_wolf_version'  => '0.7.5',
 	'type'                  => 'both'
 ));
