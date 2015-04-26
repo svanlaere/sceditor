@@ -35,12 +35,14 @@ function sceditor_core_setup($current_path) {
     $controllers = '(page|snippet)';
     $actions = '(add|edit)';
     $pattern = '/^'.ADMIN_DIR.'\/'.$controllers.'\/'.$actions.'/';
+	$user_language = i18n::getLocale();
 	
     if (preg_match($pattern, $current_path)) {
         Plugin::addJavascript('sceditor', 'scripts/sceditor/jquery.sceditor.min.js');
+		Plugin::addJavascript('sceditor', 'scripts/sceditor/languages/' . $user_language . '.js'  );
 		
         echo new View(PLUGINS_ROOT . DS . 'sceditor/views/sceditor_init', array(
-            'language' => i18n::getLocale(),
+            'language' => $user_language,
         ));	   
     }
 	
