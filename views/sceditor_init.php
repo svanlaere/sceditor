@@ -1,3 +1,4 @@
+<script type="text/javascript" charset="utf-8">
 /* Wolf's filter switch */
 $(function () {
 
@@ -89,3 +90,4 @@ $(function () {
     });
 
 });
+</script>
