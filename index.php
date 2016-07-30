@@ -8,7 +8,7 @@ Plugin::setInfos(array(
     'title'                 => __('SCEditor'),
     'description'           => __('SCEditor Wysiwyg filter'),
     'version'               => '1.2.9',
-    'license'               => 'GPLv3',
+    'license'               => 'MIT',
     'author'                => 'svanlaere',
     'website'               => 'http://svanlaere.nl/',
     'update_url'            => 'http://svanlaere.nl/plugin-versions.xml',
